@@ -1,5 +1,5 @@
 # SpringSimpleTransactionExample
-This is just my back up, show simple processing result for spring default tansaction manger(org.springframework.jdbc.datasource.DataSourceTransactionManager)
+This is just my back up, show simple processing result for spring default transaction manger(org.springframework.jdbc.datasource.DataSourceTransactionManager)
 
 If no declared @Transactional occurred, the method will run in non-tx-manager, each dml operation will commit
 immediately, any throwable later will not cause roll back.If this method invoke another sub-method annotated with
